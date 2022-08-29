@@ -1,0 +1,98 @@
+.box{
+  color: white;
+  font-size: 100px;
+  text-align: center;
+  text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
+
+  }
+
+
+.box1{
+background-color: red;
+}
+
+.box2{
+background-color: green;
+}
+.box3{
+background-color: blue;
+}
+.box4{
+background-color: cyan;
+}
+.box5{
+  background-color: orange;
+  flex-shrink: 2;
+
+}
+.box6{
+  background-color: pink;
+
+
+}
+.box7{
+  background-color: MediumVioletRed;
+
+}
+.box8{
+  background-color: indigo;
+
+}
+.box9{
+background-color: powderblue;
+
+
+}
+.box10{
+  background-color: brown;
+
+
+
+
+}
+.box11{
+  background-color: royalblue;
+
+
+}
+.box12{
+  background-color: lawngreen;
+}
+/* FLEXBOX */
+.container{
+  display: flex;
+  background-color: purple;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: 400px;
+
+}
+
+.left{
+  background-color: lawngreen;
+  color: white;
+  font-size: 100px;
+  text-align: center;
+  text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
+  flex: 50%;
+
+}
+.right{
+  background-color: royalblue;
+  color: white;
+  font-size: 100px;
+  text-align: center;
+  text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
+  flex: 50%;
+
+}
+.container-two{
+  display: flex;
+  flex-wrap: wrap;
+}
+/* PHONE */
+@media (max-width:800px) {
+  .left, .right{
+    flex: 100%;
+  }
+}
